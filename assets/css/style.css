@@ -1,7 +1,48 @@
 body {
   font-family: "Tenali Ramakrishna", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Navbar */
+
+.navbar-custom {
+    background-color:#9b3e36;
+    
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #9b3e36;
+    background-color: #fff;
+}
+
+.nav-item a {
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.nav-item a:hover {
+    font-size: 1.7rem;
+    color: #9b3e36;
+    background: #fff;
+    
+}
+
+
+
+.navbar-toggler-icon {
+    color: #fff;
+}
 .callout-container {
   height: 100vh;
   background: url(../images/hero.jpg) no-repeat center center fixed;
@@ -17,9 +58,6 @@ body {
 }
 
 .review-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 30px;
 }
 
@@ -33,6 +71,7 @@ body {
   height: 5px;
   border: 0;
   background-color: #9b3e36;
+  margin-bottom: 50px;
 }
 
 /* Jumbotron */
@@ -44,7 +83,7 @@ body {
 .jumbotron-header {
   color: #fafafa;
   text-shadow: -1px -1px 0 #000;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -71,8 +110,25 @@ body {
 
 /* Customer Reviews */
 
+/* .review-header {
+    margin-bottom: 50px;
+} */
+
 .media {
-    margin-left: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.media .blockquote p {
+    font-size: 1.75rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #9b3e36;
+    color: #fff;
 }
 
 .social-links a i {
@@ -81,7 +137,7 @@ body {
   border-radius: 50%;
   font-size: 15px;
   background: #fff;
-  color: #e4a5e6;
+  color: #9b3e36;
   padding: 12px 0;
   text-align: center;
   line-height: 7px;
