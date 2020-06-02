@@ -42,7 +42,15 @@ body {
     text-shadow: -1px -1px 0 #000;
     margin-right: 10px;
 }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #9b3e36;
+    text-shadow: -1px -1px 0 #333;
+}
     
+.active {
+    font-size: 1.75rem;
+}
 
 /* Callout */
 
@@ -73,6 +81,7 @@ body {
   width: 125px;
   height: 5px;
   border: 0;
+  border-radius: 10%;
   background-color: #9b3e36;
   margin-bottom: 50px;
 }
@@ -114,6 +123,8 @@ body {
 
 /* Customer Reviews */
 
+
+
 /* .review-header {
     margin-bottom: 50px;
 } */
@@ -131,7 +142,7 @@ body {
 /* Footer */
 
 footer {
-    background-color: rgba(155 , 62 , 54 , 0.6);
+    background-color:  #9b3e36;
     color: #fff;
 }
 
