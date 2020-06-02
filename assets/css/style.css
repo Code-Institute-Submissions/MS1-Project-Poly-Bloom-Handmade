@@ -68,13 +68,6 @@ body {
   position: relative;
 }
 
-.review-container {
-  margin-top: 30px;
-}
-
-.footer-container {
-}
-
 /* Block Dividers */
 
 .block-divider {
@@ -101,6 +94,11 @@ body {
   padding-top: 20px;
 }
 
+.jumbotron p {
+  color: #fff;
+  margin: 30px 0;
+}
+
 .lead {
   color: #fafafa;
   font-size: 2rem;
@@ -116,18 +114,12 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.jumbotron p {
-  color: #fff;
-  margin: 30px 0;
-}
-
 /* Customer Reviews */
 
+.review-container {
+  margin-top: 30px;
+}
 
-
-/* .review-header {
-    margin-bottom: 50px;
-} */
 
 .media {
     margin-left: 10px;
@@ -141,20 +133,62 @@ body {
 
 /* Footer */
 
+.footer-container {
+
+}
+
 footer {
+    height: 120px;
+    background-color: #9b3e36
+}
+
+.social {
+    text-align: center;
+   
+}
+
+.social li {
+    display: inline;
+}
+
+.social li a {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777;
+
+}
+
+/* footer {
     background-color:  #9b3e36;
     color: #fff;
+    height: 110px;
+}
+
+.copy {
+    margin-bottom: 0;
+   
+    
 }
 
 .social-links a i {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  font-size: 15px;
+  border: solid 1 px #9b3e36;
+  font-size: 30px;
   background: #fff;
   color: #9b3e36;
-  padding: 12px 0;
+  padding: 17px 0;
   text-align: center;
   line-height: 7px;
   margin-right: 12px;
 }
+
+.social-links a i:hover {
+    color: #fff;
+    background-color: #9b3e36; 
+}
+
+
+} */
