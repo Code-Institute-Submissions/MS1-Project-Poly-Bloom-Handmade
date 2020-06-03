@@ -1,3 +1,7 @@
+html , body {
+    height: 100%;
+}
+
 body {
   font-family: "Tenali Ramakrishna", sans-serif;
   margin: 0;
@@ -134,66 +138,30 @@ body {
   height: 5px;
   border: 0;
   background-color: #9b3e36;
+  margin-bottom: 40px;
 }
 
 /* Footer */
 
-.footer-container {
 
+/* About Page */
+
+.image-container {
+  height: 100vh;
+  background: url(../images/about.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-footer {
-    height: 120px;
-    background-color: #9b3e36
+.about-container p {
+    font-size: 1.75rem;
+    font-weight: 300;
+    text-align: justify;
 }
-
-.social {
-    text-align: center;
-   
-}
-
-.social li {
-    display: inline;
-}
-
-.social li a {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #777;
-
-}
-
-/* footer {
-    background-color:  #9b3e36;
-    color: #fff;
-    height: 110px;
-}
-
-.copy {
-    margin-bottom: 0;
-   
-    
-}
-
-.social-links a i {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: solid 1 px #9b3e36;
-  font-size: 30px;
-  background: #fff;
-  color: #9b3e36;
-  padding: 17px 0;
-  text-align: center;
-  line-height: 7px;
-  margin-right: 12px;
-}
-
-.social-links a i:hover {
-    color: #fff;
-    background-color: #9b3e36; 
-}
-
-
-} */
