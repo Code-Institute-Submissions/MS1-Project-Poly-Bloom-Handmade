@@ -22,7 +22,6 @@ body {
 }
 
 .navbar {
-    margin-bottom: 0;
     border: 0;
     width: 100%;
     background-color: rgba(155 , 62 , 54 , 0.125);
@@ -84,6 +83,7 @@ body {
   font-size: 5rem;
   font-weight: 400;
   margin-bottom: 30px;
+  /* margin-top: 30px; */
   padding-top: 20px;
 }
 
@@ -185,10 +185,39 @@ body {
 
 .gallery-container {
   height: 100vh;
+  max-width: 100%;
+  background: url(../images/gallery.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: stretch;
 
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
+
+/* Gallery Items */
+
+.gallery-items-container {
+
+}
     
+
+.gallery-items {
+    margin-top: 30px;
+    padding: 35px;
+}    
+
+.gallery-items a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.75rem;
+    margin: 10px;
+}
+
+.gallery-items a:hover {
+    font-size: 2rem;
+    text-decoration: none;
+}
