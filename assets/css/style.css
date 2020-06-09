@@ -122,6 +122,14 @@ body {
     margin-top: 0;
 }
 
+.media img {
+    margin-right: 20px;
+}
+
+.media .media-body p {
+    font-size: 2rem;
+}
+
 /* Content Containers */
 
 .content-container {
@@ -181,7 +189,7 @@ body {
     text-align: center;
 }
 
-/* Gallery */
+/* Gallery Page*/
 
 .gallery-container {
   height: 100vh;
@@ -210,14 +218,27 @@ body {
     padding: 35px;
 }    
 
-.gallery-items a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.75rem;
-    margin: 10px;
+.gallery-items img {
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    max-width: 100%
 }
 
-.gallery-items a:hover {
-    font-size: 2rem;
+.gallery-items div {
+    text-align: center;
+}
+
+.gallery-items a {
     text-decoration: none;
+    text-align: center;
+}
+   
+.gallery-items h2 {
+    margin-top: 20px;
+    color: #333;
+}   
+
+.gallery-items h2:hover {
+    color: #9b3e36;
 }
