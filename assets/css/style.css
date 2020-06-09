@@ -291,11 +291,13 @@ body {
 
 .contact-form {
     background-color: rgba(50 , 50 , 50 , 0.5);
-    /* min-width: 50%; */
+    min-width: 75%;
+    max-width: 75%;
+    height: auto;
     margin-top: 50px;
     padding: 20px;
-    /* position: absolute;
-    left: 25%; */
+    position: absolute;
+    top: 10%;
     text-shadow: -1px -1px 0 #000;
     color: #fff;
 }
@@ -312,7 +314,17 @@ body {
 
 .form-control {
     margin-bottom: 10px;
+    color: #fff;
     font-size: 1.3rem;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.form-control:hover {
+    background: transparent;
+    border-color: #9b3e36;
+    
 }
 
 .form-check-label {
