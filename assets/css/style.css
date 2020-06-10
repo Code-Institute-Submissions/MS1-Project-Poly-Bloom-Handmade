@@ -150,12 +150,47 @@ body {
 
 
 /* Footer */
-footer {
+.footer {
     background-color:#9b3e36;
     color: #fff;
-    height: 90px;
-    position: fixed;
+    width: 100%;
+    min-height: 120px;
 }
+
+
+.social {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.social li {
+    display: inline;
+    margin-right: 40px;
+   }
+
+.social i {
+    color: #9b3e36;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 17px;
+    line-height: 9px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social i:hover {
+    color: #fff;
+    background-color: #9b3e36;
+}
+
+
 
 /* About Page */
 
