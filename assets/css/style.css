@@ -267,6 +267,10 @@ body {
     margin-bottom: 20px;
 }
 
+.gallery-items h2:hover {
+    transform: scale(1.2);
+}
+
 .gallery-items img {
   height: auto;
   width: auto;
