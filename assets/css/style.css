@@ -36,6 +36,12 @@ body {
   text-shadow: -1px -1px 0 #000;
 }
 
+.navbar-text {
+    color: #ddd !important;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 0 #000;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
   font-size: 1.4rem;
@@ -82,7 +88,6 @@ body {
   font-size: 5rem;
   font-weight: 400;
   margin-bottom: 30px;
-  /* margin-top: 30px; */
   padding-top: 20px;
 }
 
@@ -128,9 +133,13 @@ body {
 }
 
 .carousel-item h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
+
+.carousel-item em {
+        font-size: 1.3rem;
+    }
 
 .carousel-control-prev-icon , 
 .carousel-control-next-icon {
@@ -200,16 +209,15 @@ body {
 }
 
 .about-container p {
-  font-size: 1.75rem;
-  font-weight: 300;
+
 }
 
 .about,
 .about-2 {
-  text-align: center;
-  text-shadow: -1px -1px 0 #9b3e36;
+  font-size: 1.3rem;
+  font-family: "Montserrat" , sans-serif;
   font-style: italic;
-  /* background-color: rgb(235, 217, 217); */
+  font-weight: 500;
 }
 
 .about-2 {
@@ -223,7 +231,7 @@ body {
 }
 
 
-/* Gallery Page*/
+/* Shop Page*/
 
 .gallery-container {
   height: 100vh;
@@ -245,8 +253,18 @@ body {
 .gallery-items-container {}
 
 .gallery-items {
+  font-family: "Montserrat" , sans-serif;
   margin-top: 30px;
   padding: 35px;
+}
+
+.gallery-items h1 {
+    font-size: 2rem;
+}
+
+.gallery-items h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
 }
 
 .gallery-items img {
@@ -294,25 +312,28 @@ body {
 .contact-form {
     background-color: rgba(50 , 50 , 50 , 0.5);
     color: #fff;
+    font-family: "Montserrat" , sans-serif;
     margin-top: 50px;
     padding: 20px;
     text-shadow: -1px -1px 0 #000;
-    height: 75vh;
+    height: auto;
     width: 75vw;
     
 }
 
 .contact-form h1 , p {
     text-align: center;
-    
 }
 
+.contact-form h1 {
+    font-size: 2rem;
+}
 .contact-form > p {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
 }
 
 .form-group {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 
@@ -355,7 +376,7 @@ body {
     margin-top: 20px;
 }
 .btn-custom {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     color: #fff;
     background-color: #9b3e36
@@ -371,6 +392,11 @@ body {
 
 @media only screen and (max-width: 566px) {
     /* For mobile view */
+
+.about,
+.about-2 {
+  font-size: 1.2rem;
+}
 
     .contact-form {
         max-height: 75vh;
