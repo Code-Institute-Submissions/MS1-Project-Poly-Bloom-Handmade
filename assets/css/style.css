@@ -2,7 +2,6 @@ body {
   font-family: "Tenali Ramakrishna", sans-serif;
   margin: 0;
   padding: 0;
-  touch-action: none;
 }
 
 .row {
@@ -111,6 +110,7 @@ body {
 /* Customer Reviews */
 
 #reviews {
+    font-family: "Montserrat" , sans-serif;
     text-align: center;
 }
 
@@ -127,9 +127,16 @@ body {
     padding: 7% 15%;
 }
 
-.carousel span {
-    color: rgba(60, 60, 60, .6);
+.carousel-item h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
+
+.carousel-control-prev-icon , 
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
 
 
 /* Content Containers */
@@ -286,15 +293,13 @@ body {
 
 .contact-form {
     background-color: rgba(50 , 50 , 50 , 0.5);
-    min-width: 75%;
-    max-width: 75%;
-    height: auto;
+    color: #fff;
     margin-top: 50px;
     padding: 20px;
-    position: absolute;
-    top: 10%;
     text-shadow: -1px -1px 0 #000;
-    color: #fff;
+    height: 75vh;
+    width: 75vw;
+    
 }
 
 .contact-form h1 , p {
@@ -312,17 +317,34 @@ body {
 }
 
 .form-control {
+    background: transparent;
     margin-bottom: 10px;
     color: #fff;
     font-size: 1.3rem;
     border: 1px solid #fff;
     border-radius: 3px;
+    
+}
+.form-control:focus {
     background: transparent;
+    border: 1px solid #9b3e36;
+    color: #fff;
+    outline: none;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+    /* Code below borrowed from https://stackoverflow.com/questions/24222798/how-to-remove-the-blue-box-shadow-border-in-button-if-clicked */
+  background-image: none;
+  outline: 0;
+  box-shadow: none;
 }
 
 .form-control:hover {
     background: transparent;
     border-color: #9b3e36;
+    outline: none;
 }
 
 .form-check-label {
@@ -343,4 +365,23 @@ body {
 .btn-custom:hover {
     color: #9b3e36;
     background-color: #fff 
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 566px) {
+    /* For mobile view */
+
+    .contact-form {
+        max-height: 75vh;
+        max-width: 75vw;
+    }
+
+    .carousel-item h2 {
+        font-size: 1.1rem;
+    }
+
+    .carousel-item em {
+        font-size: 1rem;
+    }
 }
