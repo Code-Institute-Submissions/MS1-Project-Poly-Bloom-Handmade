@@ -43,7 +43,7 @@
 						<a href="about.html" class="nav-link">About</a>
 					</li>
 					<li class="nav-item mr-2">
-						<a href="gallery.html" class="nav-link">Gallery</a>
+						<a href="gallery.html" class="nav-link">Shop</a>
 					</li>
 					<li class="nav-item mr-2">
 						<a href="contact.html" class="nav-link">Contact</a>
@@ -74,65 +74,72 @@
 
 	<!-- Customer Reviews -->
 	<div class="container content-container">
-		<section class="reviews">
-			<div class="row">
-				<div class="col-12 review-header">
-					<h2 class="text-uppercase text-center">
-						Customer Reviews:
-					</h2>
-					<hr class="block-divider" />
-				</div>
-			</div>
+		<section id="reviews">
+			<div id="reviews-carousel" class="carousel slide" data-ride="false" data-interval="false">
+				<ol class="carousel-indicators">
+					<li data-target="#reviews-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#reviews-carousel" data-slide-to="1"></li>
+					<li data-target="#reviews-carousel" data-slide-to="2"></li>
+				</ol>
 
-			<div class="row">
-				<div class="col-12 col-md-6">
-					<div class="media">
-						<div class="d-none d-sm-block">
-							<img src="assets/images/wom1.jpg" alt="Portrait of a woman customer" class="rounded-circle" height="100" width="100" />
-              </div>
-							<div class="media-body">
-								<blockquote class="blockquote">
-									<p><em>I love my earrings! Everything about them is so unique and carefully crafted.</em>
-									</p>
-									<p>- Ariana</p>
-								</blockquote>
-							</div>
-						</div>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<h2>I just love how unique my Poly Bloom earrings are! The attention to detail and creativity in
+							these pieces are amazing.</h2>
+						<img src="../assets/images/wom2.jpg" class="review-image" alt="Profile picture of happy customer">
+						<em>Angela - Berlin</em>
 					</div>
-					<div class="col-12 col-md-6">
-						<div class="media">
-							<div class="d-none d-sm-block">
-								<img src="assets/images/wom2.jpg" alt="Portrait of a woman customer" class="rounded-circle" height="100" width="100" />
-              </div>
-								<div class="media-body">
-									<blockquote class="blockquote">
-										<p><em> I love my earrings! I love my earrings! I love my earrings! I love my earrings!</em>
-										</p>
-										<p>- Salinas</p>
-									</blockquote>
-								</div>
-							</div>
-						</div>
+
+                    <div class="carousel-item">
+						<h2>I just love how unique my Poly Bloom earrings are! The attention to detail and creativity in
+							these pieces are amazing.</h2>
+						<img src="../assets/images/wom4.jpg" class="review-image" alt="Profile picture of happy customer">
+						<em>Savannah - Paris</em>
 					</div>
+
+                    <div class="carousel-item">
+						<h2>I just love how unique my Poly Bloom earrings are! The attention to detail and creativity in
+							these pieces are amazing.</h2>
+						<img src="../assets/images/wom1.jpg" class="review-image" alt="Profile picture of happy customer">
+						<em>Ariana - New York</em>
+					</div>
+
+					</div>
+					<a class="carousel-control-prev" href="#reviews-carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+
+					<a class="carousel-control-next" href="#reviews-carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
 		</section>
 		<!-- /Customer Reviews -->
 	</div>
 
 	<!-- Footer -->
 	<footer>
-    <div class="footer">
-        <ul class="social">
-            <li><a href="https://www.facebook.com/polybloomhandmade/" target="blank"><i class="fab fa-facebook"></i></a></li>
-           <li><a href="https://www.instagram.com/polybloomhandmade/" target="blank"><i class="fab fa-instagram"></i></a></li>
-           <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank"><i class="fab fa-youtube"></i></a></li>
-           <li><a href="https://www.etsy.com/shop/polybloomhandmade?ref=search_shop_redirect" target="blank"><i class="fab fa-etsy"></i></a></li>
-        </ul>
-        <aside>
-        <p style="margin-bottom:0px;">© Copyright Poly Bloom Handmade 2020</p> <!--Look into this inline style-->
-        </aside>
-        </div>
-        
-    </footer>
+		<div class="footer">
+			<ul class="social">
+				<li><a href="https://www.facebook.com/polybloomhandmade/"
+						target="blank"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="https://www.instagram.com/polybloomhandmade/"
+						target="blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+						target="blank"><i class="fab fa-youtube"></i></a></li>
+				<li><a href="https://www.etsy.com/shop/polybloomhandmade?ref=search_shop_redirect"
+						target="blank"><i class="fab fa-etsy"></i></a></li>
+			</ul>
+			<aside>
+				<p style="margin-bottom:0px;">© Copyright Poly Bloom Handmade 2020</p>
+				<!--Look into this inline style-->
+			</aside>
+		</div>
+
+	</footer>
 
 	<!-- /Footer -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
