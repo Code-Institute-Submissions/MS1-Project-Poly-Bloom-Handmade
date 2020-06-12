@@ -301,14 +301,13 @@ body {
 }
 
 .contact-form {
-  background-color: rgba(50, 50, 50, 0.5);
+  background-color: rgba(155, 62, 54, 0.5);
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  margin-top: 50px;
+  margin-top: 75px;
   padding: 20px;
   text-shadow: -1px -1px 0 #000;
-  height: auto;
-  width: 75vw;
+  width: 60%;
 }
 
 .contact-form h1,
@@ -328,7 +327,7 @@ p {
 }
 
 .form-control {
-  background: transparent;
+  background: #fafafa;
   margin-bottom: 10px;
   color: #fff;
   font-size: 1.3rem;
@@ -336,7 +335,7 @@ p {
   border-radius: 3px;
 }
 .form-control:focus {
-  background: transparent;
+    background: #fafafa;
   border: 1px solid #9b3e36;
   color: #fff;
   outline: none;
@@ -352,7 +351,7 @@ p {
 }
 
 .form-control:hover {
-  background: transparent;
+  background: #fafafa;
   border-color: #9b3e36;
   outline: none;
 }
@@ -379,20 +378,61 @@ p {
 /* Media Query */
 
 @media (orientation: landscape) {
-    
+    body {
+        padding-top: 60px;
+    }
+
+    .contact-form {
+        margin: 80px;
+    }
+
+    .form-row {
+        padding-top: 60px;
+    }
 }
 
-@media only screen and (max-width: 566px) {
-  /* For mobile view */
+/* For Tablet View */
+
+@media only screen and (min-width: 991px) {
+ .contact-container {
+     height: 92vh;
+  }
+
+  .form-row {
+      max-height: 80%;
+      /* margin: 10px 0; */
+  }
+
+  .contact-form {
+    max-height: auto;
+    min-width: 75vw;
+  }
+
+}
+
+
+/* For mobile view */
+
+@media only screen and (max-width: 990px) {
+  
 
   .about,
   .about-2 {
     font-size: 1.2rem;
   }
 
+  .contact-container {
+     height: 92vh;
+  }
+
+  .form-row {
+      max-height: 60%;
+      /* margin: 10px 0; */
+  }
+
   .contact-form {
-    max-height: 75vh;
-    max-width: 75vw;
+    max-height: auto;
+    min-width: 75vw;
   }
 
   .carousel-item h2 {
