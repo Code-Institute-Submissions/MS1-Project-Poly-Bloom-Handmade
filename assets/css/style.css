@@ -9,7 +9,6 @@ body {
   margin-left: 0;
 }
 
-
 /* Navbar */
 
 .navbar-container {
@@ -37,9 +36,9 @@ body {
 }
 
 .navbar-text {
-    color: #ddd !important;
-    font-size: 1.2rem;
-    text-shadow: 1px 1px 0 #000;
+  color: #ddd !important;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 0 #000;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -59,7 +58,6 @@ body {
   border-bottom: 1px solid #fff;
 }
 
-
 /* Callout */
 
 .callout-container {
@@ -74,7 +72,6 @@ body {
   justify-content: center;
   position: relative;
 }
-
 
 /* Jumbotron */
 
@@ -111,47 +108,41 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-
 /* Customer Reviews */
 
 #reviews {
-    font-family: "Montserrat" , sans-serif;
-    text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .review-image {
-    border-radius: 100%;
-    margin: 20px;
-    padding: 20% auto;
-    width: 20%;
-    max-height: 20%;
-    min-height: 20%;
+  border-radius: 100%;
+  margin: 20px;
+  padding: 20% auto;
+  width: 20%;
+  max-height: 20%;
+  min-height: 20%;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 .carousel-item h2 {
-    font-size: 1.3rem;
-    line-height: 1.5;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 .carousel-item em {
-        font-size: 1.3rem;
-    }
-
-.carousel-control-prev-icon , 
-.carousel-control-next-icon {
-    filter: invert(1);
+  font-size: 1.3rem;
 }
 
-
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
 
 /* Content Containers */
-
-
-
 
 /* Block Dividers */
 
@@ -163,34 +154,32 @@ body {
   margin-bottom: 40px;
 }
 
-
 /* Footer */
 .footer {
-    background-color:#9b3e36;
-    color: #fff;
-    width: 100%;
-    max-height: 120px;
+  background-color: #9b3e36;
+  color: #fff;
+  width: 100%;
+  max-height: 120px;
 }
 
-
 .social {
-    text-align: center;
-    padding-top: 35px;
+  text-align: center;
+  padding-top: 35px;
 }
 
 .social li {
-    display: inline;
-    margin-right: 40px;
-   }
+  display: inline;
+  margin-right: 40px;
+}
 
 .social i {
-    color: #fff;
-    background-color: #9b3e36;
-    font-size: 2rem;
+  color: #fff;
+  background-color: #9b3e36;
+  font-size: 2rem;
 }
 
 .social i:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* About Page */
@@ -209,13 +198,12 @@ body {
 }
 
 .about-container p {
-
 }
 
 .about,
 .about-2 {
   font-size: 1.3rem;
-  font-family: "Montserrat" , sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   font-weight: 500;
 }
@@ -229,7 +217,6 @@ body {
   color: #9b3e36;
   text-align: center;
 }
-
 
 /* Shop Page*/
 
@@ -247,35 +234,35 @@ body {
   position: relative;
 }
 
-
 /* Gallery Items */
 
-.gallery-items-container {}
+.gallery-items-container {
+}
 
 .gallery-items {
-  font-family: "Montserrat" , sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 30px;
   padding: 35px;
 }
 
 .gallery-items h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .gallery-items h2 {
-    font-size: 1.3rem;
-    margin-bottom: 20px;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
 }
 
 .gallery-items h2:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .gallery-items img {
   height: auto;
   width: auto;
   min-width: 100%;
-  max-width: 100%
+  max-width: 100%;
 }
 
 .gallery-items div {
@@ -296,7 +283,6 @@ body {
   color: #9b3e36;
 }
 
-
 /* Contact Page */
 
 .contact-container {
@@ -314,104 +300,101 @@ body {
 }
 
 .contact-form {
-    background-color: rgba(50 , 50 , 50 , 0.5);
-    color: #fff;
-    font-family: "Montserrat" , sans-serif;
-    margin-top: 50px;
-    padding: 20px;
-    text-shadow: -1px -1px 0 #000;
-    height: auto;
-    width: 75vw;
-    
+  background-color: rgba(50, 50, 50, 0.5);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  padding: 20px;
+  text-shadow: -1px -1px 0 #000;
+  height: auto;
+  width: 75vw;
 }
 
-.contact-form h1 , p {
-    text-align: center;
+.contact-form h1,
+p {
+  text-align: center;
 }
 
 .contact-form h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .contact-form > p {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .form-group {
-    font-size: 1.2rem;
-
+  font-size: 1.2rem;
 }
 
 .form-control {
-    background: transparent;
-    margin-bottom: 10px;
-    color: #fff;
-    font-size: 1.3rem;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    
+  background: transparent;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.3rem;
+  border: 1px solid #fff;
+  border-radius: 3px;
 }
 .form-control:focus {
-    background: transparent;
-    border: 1px solid #9b3e36;
-    color: #fff;
-    outline: none;
+  background: transparent;
+  border: 1px solid #9b3e36;
+  color: #fff;
+  outline: none;
 }
 
 .form-control:active,
 .form-control:focus,
 .form-control:focus:active {
-    /* Code below borrowed from https://stackoverflow.com/questions/24222798/how-to-remove-the-blue-box-shadow-border-in-button-if-clicked */
+  /* Code below borrowed from https://stackoverflow.com/questions/24222798/how-to-remove-the-blue-box-shadow-border-in-button-if-clicked */
   background-image: none;
   outline: 0;
   box-shadow: none;
 }
 
 .form-control:hover {
-    background: transparent;
-    border-color: #9b3e36;
-    outline: none;
+  background: transparent;
+  border-color: #9b3e36;
+  outline: none;
 }
 
 .form-check-label {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .btn {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .btn-custom {
-    font-size: 1.3rem;
-    text-align: center;
-    color: #fff;
-    background-color: #9b3e36
-    
+  font-size: 1.3rem;
+  text-align: center;
+  color: #fff;
+  background-color: #9b3e36;
 }
 
 .btn-custom:hover {
-    color: #9b3e36;
-    background-color: #fff 
+  color: #9b3e36;
+  background-color: #fff;
 }
 
 /* Media Query */
 
 @media only screen and (max-width: 566px) {
-    /* For mobile view */
+  /* For mobile view */
 
-.about,
-.about-2 {
-  font-size: 1.2rem;
-}
+  .about,
+  .about-2 {
+    font-size: 1.2rem;
+  }
 
-    .contact-form {
-        max-height: 75vh;
-        max-width: 75vw;
-    }
+  .contact-form {
+    max-height: 75vh;
+    max-width: 75vw;
+  }
 
-    .carousel-item h2 {
-        font-size: 1.1rem;
-    }
+  .carousel-item h2 {
+    font-size: 1.1rem;
+  }
 
-    .carousel-item em {
-        font-size: 1rem;
-    }
+  .carousel-item em {
+    font-size: 1rem;
+  }
 }
