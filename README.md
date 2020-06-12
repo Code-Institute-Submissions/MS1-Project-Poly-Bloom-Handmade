@@ -5,7 +5,7 @@
 
 
 ## UX
-<hr>
+
 <p>I decided to make this site in order to promote Poly Bloom Handmade. My plan was to build an attractive, intuitive and infomative website that showcased the elegance and simplicity associated with these earrings.</p>
 
 <p>I included a navbar and footer across all pages to maintain design continuity. The fonts, colors and sizing across all pages also follow continuity.</p>
@@ -30,7 +30,7 @@
 <p>Using Bootstrap 4 allowed for this project to be responsive on all devices with an emphasis on a mobile first design approach.</p>
 
 ## External Libraries and Technology Used
-<hr>
+
 <p>I used HTML, CSS and Bootstrap4 to build and design the website layout. I also used fontawesome for the social media icons, Google Fonts for fonts.
 
 https://getbootstrap.com/docs/4.4/getting-started/introduction/
@@ -51,7 +51,7 @@ https://color.adobe.com/en/create/color-wheel
 All technologies used were chosen due to my experience with using them from the modules on the Code Institute Front End Developer course.</p>
 
 ## Features
-<hr>
+
 
 ### Included Features
 
@@ -66,7 +66,6 @@ Footer - Across all pages sits a footer with active links to all social media an
 Given my inexperience, I will later add a fully functional online store to the Shop page with the possibility to buy products directly from the site.
 
 ## Testing 
-<hr>
 
 Navbar - All links are functional and perform as desired. Navbar is responsive across all devices.
 
@@ -77,7 +76,7 @@ Contact Form - Is fully functional and returns all input information as designed
 Footer - All links are functional and open into a new page when clicked.
 
 ## Deployment 
-<hr>
+
 This website is available to view publicly on Github Pages.
 
 Github Pages - https://craig-ryan.github.io/MS1-Project-Poly-Bloom-Handmade/index.html
@@ -85,7 +84,7 @@ Github Pages - https://craig-ryan.github.io/MS1-Project-Poly-Bloom-Handmade/inde
 Github Repository - https://github.com/Craig-Ryan/MS1-Project-Poly-Bloom-Handmade
 
 ## Acknowledgements
-<hr>
+
 
 https://getbootstrap.com/docs/4.4/getting-started/introduction/
 
