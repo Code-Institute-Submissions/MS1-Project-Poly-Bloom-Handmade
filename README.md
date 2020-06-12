@@ -69,6 +69,8 @@ Given my inexperience, I will later add a fully functional online store to the S
 
 Navbar - All links are functional and perform as desired. Navbar is responsive across all devices.
 
+Home Page - <strong><em>Jumbotron when rotated in mobile view pushes into navbar. I will fix asap.</em></strong>
+
 Sections - Are responsive across all devices and functioning as desired. <strong><em>When viewing in Github Pages the images in the customer reviews section are not showing up. I aim to resolve this asap.</em></strong></strong>
 
 Contact Form - Is fully functional and returns all input information as designed. <strong><em>However within mobile and tablet view there are issues with responsiveness yet to be resolved.</em></strong>
