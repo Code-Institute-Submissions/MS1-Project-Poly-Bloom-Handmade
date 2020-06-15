@@ -72,6 +72,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-bottom: 30px;
 }
 
 /* Jumbotron */
@@ -86,6 +87,7 @@ body {
   font-size: 5rem;
   font-weight: 400;
   margin-bottom: 30px;
+  margin-top: 130px;
   padding-top: 20px;
 }
 
@@ -378,6 +380,10 @@ p {
     height: 92vh;
   }
 
+  .form-row {
+    max-height: 80%;
+    /* margin: 10px 0; */
+  }
 
 }
 
@@ -407,13 +413,7 @@ p {
     font-size: 1.2rem;
   }
 
-  .contact-container {
-      padding-top: 50px;
-  }
 
-  /* .contact-form {
-    min-width: 75vw;
-  } */
 
   .carousel-item h2 {
     font-size: 1.1rem;
