@@ -82,7 +82,7 @@ body {
   justify-content: center;
   position: relative;
   margin-top: 60px;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #9b3e36;
 }
 
 .opaque-overlay {
@@ -93,13 +93,12 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* Banner */
-
-#banner {
-    /* background-color: rgba(155, 62, 54, 0); */
-}
 
 /* Jumbotron */
+
+.jumbotron {
+    background: transparent;
+}
 
 .jumbotron-text {
     color: #fff;
@@ -118,17 +117,15 @@ body {
 /* Customer Reviews */
 
 .content-container {
+    font-family: "Montserrat" sans-serif;
     margin-top: 30px;
     text-align: center;
     text-transform: uppercase
-    
 }
 
 .carousel-container {
     text-align: center;
 }
-
-
 
 .review-image {
   border-radius: 100%;
@@ -141,11 +138,6 @@ body {
 
 .carousel-item {
   padding: 5% 12%;
-}
-
-.carousel-item h2 {
-  font-size: 1.3rem;
-  line-height: 1.2;
 }
 
 .carousel-item em {
@@ -166,8 +158,8 @@ body {
   height: 5px;
   border: 0;
   background-color: #9b3e36;
-  margin: auto;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .block-divider--small {
@@ -175,37 +167,25 @@ body {
   height: 5px;
   border: 0;
   background-color: #9b3e36;
-  margin: auto;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 /* Footer */
 footer {
   background-color: #9b3e36;
   color: #fff;
-  padding: 0;
-  height: auto;
-}
-
-footer > p {
-    margin-bottom: 0;
-}
-
-.social {
+  margin-top: auto;
   text-align: center;
-  /* padding-top: 35px; */
-  margin: 0;
 }
 
-.social li {
-  display: inline;
-  margin-right: 20px;
-}
 
 .social i {
   color: #fff;
   background-color: #9b3e36;
-  font-size: 2rem;
+  margin-right: 10px;
+  font-size: 1.25rem;
+  padding 2%;
 }
 
 .social i:hover {
@@ -225,29 +205,7 @@ footer > p {
   align-items: center;
   justify-content: center;
   position: relative;
-}
-
-.about-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.about,
-.about-2 {
-  font-size: 1.3rem;
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  font-weight: 500;
-}
-
-.about-2 {
-  margin-top: 30px;
-}
-
-.icon {
-  /* margin: 30px 0; */
-  color: #9b3e36;
-  text-align: center;
+  border-bottom: 2px solid #9b3e36;
 }
 
 /* Shop Page*/
@@ -264,22 +222,14 @@ footer > p {
   align-items: center;
   justify-content: center;
   position: relative;
+  border-bottom: 2px solid #9b3e36;
 }
 
 /* Gallery Items */
 
 .gallery-container {
-}
-
-
-
-.gallery-items h2 {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-}
-
-.gallery-items h2:hover {
-  transform: scale(1.2);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .gallery-items img {
@@ -289,22 +239,26 @@ footer > p {
   max-width: 100%;
 }
 
-.gallery-items div {
-  text-align: center;
-}
-
 .gallery-items a {
   text-decoration: none;
-  text-align: center;
 }
 
 .gallery-items h2 {
-  margin-top: 20px;
-  color: #333;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-left: solid 1px #9b3e36;
+    border-right: solid 1px #9b3e36;
+    border-bottom: solid 1px #9b3e36;
+    background-color: rgba(155, 62, 54, 0.7);
 }
 
 .gallery-items h2:hover {
+  background-color: #fff;
   color: #9b3e36;
+  border: none;
+  transform: scale(1.1);
+  padding-top: 10px;
 }
 
 /* Contact Page */
@@ -394,25 +348,26 @@ p {
 
 /* Media Query */
 
+
 @media screen and (max-width: 341px) {
 .navbar-brand {    
     font-size: 1.4rem;
     }
-
-    /* .carousel-item em {
-        font-size: .9rem;
-    } */
-}
+/* }
 
 @media screen and (max-height: 370px) {
 
 .jumbo-h1 {
     margin-top: 35px;
-}
-}
+} */
 
-@media screen and (max-width: 425px) {
-
+/* @media (orientation: landscape) {
+    .jumbo-h1 {
+    padding-top: 80px;
+    }
+} */
+/* 
+@media screen and (min-width: 768px) {
 
 .jumbo-h1 {
     font-size: 3rem;
@@ -421,66 +376,6 @@ p {
 .jumbo-p {
     font-size: 1.75rem; 
 }
-
-@media (orientation: landscape) {
-    .jumbo-h1 {
-    padding-top: 80px;
-    }
-}
 }
 
-
-/* @media screen and (min-width: 1024px) {
-.callout-container {
-    height: 35em;
-} */
-
-
-
-/* For Tablet View */
-
-/* @media (min-width: 768px) and (max-width: 1024px) {
-  .contact-container {
-    height: 92vh;
-  } */
-
-  /* .form-row {
-    max-height: 80%; */
-    /* margin: 10px 0; */
-  }
-
-}
-
-/* For mobile view */
-
-@media screen and (max-width: 341px) {
-    .navbar-brand {
-        font-size: 1.4rem;
-    }
-}
-
-
-/* @media (min-width: 320px) and (max-width: 768px) {
-
-.form-h1 {
-    margin-top: 50px;
-}
-
-}
-
-@media only screen and (max-width: 1024px) {
-  .about,
-  .about-2 {
-    font-size: 1.2rem;
-  }
-
-
-
-  .carousel-item h2 {
-    font-size: 1.1rem;
-  }
-
-  .carousel-item em {
-    font-size: 1rem;
-  }
-} */
+ */
