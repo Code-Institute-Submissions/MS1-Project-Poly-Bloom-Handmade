@@ -51,7 +51,6 @@ body {
   color: #fff;
   font-size: 1.4rem;
   text-shadow: -1px -1px 0 #000;
-  /* margin-right: 10px; */
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -68,7 +67,7 @@ body {
 /* Callout */
 
 .callout-container {
-  /* height: 100vh; */
+  height: 90vh;
   background: url(../images/hero.jpg) center center / cover no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -78,13 +77,21 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  /* padding-bottom: 30px; */
   margin-top: 60px;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /* Banner */
 
 #banner {
-    background-color: rgba(155, 62, 54, 0.6);
+    /* background-color: rgba(155, 62, 54, 0); */
 }
 
 /* Jumbotron */
@@ -93,6 +100,14 @@ body {
     color: #fff;
     font-family: inherit;
     text-align: center;
+}
+
+.jumbo-h1 {
+    font-size: 3rem;
+}
+
+.jumbo-p {
+    font-size: 2rem;
 }
 
 /* Customer Reviews */
@@ -112,12 +127,12 @@ body {
 }
 
 .carousel-item {
-  padding: 7% 15%;
+  padding: 5% 12%;
 }
 
 .carousel-item h2 {
   font-size: 1.3rem;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .carousel-item em {
@@ -361,14 +376,36 @@ p {
 
 /* Media Query */
 
+@media screen and (max-width: 341px) {
+.navbar-brand {    
+    font-size: 1.4rem;
+    }
+
+    /* .carousel-item em {
+        font-size: .9rem;
+    } */
+}
+
+@media (orientation: landscape) {
+    .jumbo-h1 {
+    padding-top: 60px;
+    }
+}
+
+
 /* @media screen and (min-width: 1024px) {
 .callout-container {
     height: 35em;
 } */
 
 @media screen and (min-width: 768px) {
-.callout-container {
-    height: 92vh;
+
+.jumbo-h1 {
+    font-size: 3rem;
+}
+
+.jumbo-p {
+    font-size: 1.5rem; 
 }
 
 /* For Tablet View */
@@ -387,17 +424,12 @@ p {
 
 /* For mobile view */
 
-
-@media (max-width: 375px) {
-
+@media screen and (max-width: 341px) {
     .navbar-brand {
-        font-size: 1rem !important;
-    }
-
-    .social i {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 }
+
 
 /* @media (min-width: 320px) and (max-width: 768px) {
 
