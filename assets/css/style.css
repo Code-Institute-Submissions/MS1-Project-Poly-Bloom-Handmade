@@ -15,6 +15,10 @@ body {
   margin-left: 0;
 }
 
+.container {
+
+}
+
 /* Navbar */
 
 .navbar-container {
@@ -68,7 +72,7 @@ body {
 
 .callout-container {
   height: 90vh;
-  background: url(../images/hero.jpg) center center / cover no-repeat ;
+  background: url(../images/hero.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -78,6 +82,7 @@ body {
   justify-content: center;
   position: relative;
   margin-top: 60px;
+  border-bottom: 2px solid #000;
 }
 
 .opaque-overlay {
@@ -103,19 +108,27 @@ body {
 }
 
 .jumbo-h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .jumbo-p {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 /* Customer Reviews */
 
-#reviews {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
+.content-container {
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase
+    
 }
+
+.carousel-container {
+    text-align: center;
+}
+
+
 
 .review-image {
   border-radius: 100%;
@@ -149,11 +162,21 @@ body {
 /* Block Dividers */
 
 .block-divider {
-  width: 50px;
+  width: 15rem;
   height: 5px;
   border: 0;
   background-color: #9b3e36;
-  margin-bottom: 40px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.block-divider--small {
+  width: 10rem;
+  height: 5px;
+  border: 0;
+  background-color: #9b3e36;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 /* Footer */
@@ -161,6 +184,7 @@ footer {
   background-color: #9b3e36;
   color: #fff;
   padding: 0;
+  height: auto;
 }
 
 footer > p {
@@ -203,7 +227,9 @@ footer > p {
   position: relative;
 }
 
-.about-container p {
+.about-container {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .about,
@@ -226,7 +252,7 @@ footer > p {
 
 /* Shop Page*/
 
-.gallery-container {
+.gallery-img-container {
   height: 100vh;
   max-width: 100%;
   background: url(../images/gallery.jpg) no-repeat center center fixed;
@@ -242,18 +268,10 @@ footer > p {
 
 /* Gallery Items */
 
-.gallery-items-container {
+.gallery-container {
 }
 
-.gallery-items {
-  font-family: "Montserrat", sans-serif;
-  margin-top: 30px;
-  padding: 35px;
-}
 
-.gallery-items h1 {
-  font-size: 2rem;
-}
 
 .gallery-items h2 {
   font-size: 1.3rem;
@@ -386,10 +404,29 @@ p {
     } */
 }
 
+@media screen and (max-height: 370px) {
+
+.jumbo-h1 {
+    margin-top: 35px;
+}
+}
+
+@media screen and (max-width: 425px) {
+
+
+.jumbo-h1 {
+    font-size: 3rem;
+}
+
+.jumbo-p {
+    font-size: 1.75rem; 
+}
+
 @media (orientation: landscape) {
     .jumbo-h1 {
-    padding-top: 60px;
+    padding-top: 80px;
     }
+}
 }
 
 
@@ -398,15 +435,7 @@ p {
     height: 35em;
 } */
 
-@media screen and (min-width: 768px) {
 
-.jumbo-h1 {
-    font-size: 3rem;
-}
-
-.jumbo-p {
-    font-size: 1.5rem; 
-}
 
 /* For Tablet View */
 
