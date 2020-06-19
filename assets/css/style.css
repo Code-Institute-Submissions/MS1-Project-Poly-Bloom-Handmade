@@ -15,6 +15,8 @@ body {
   margin-left: 0;
 }
 
+
+
 .container {
 
 }
@@ -117,7 +119,7 @@ body {
 /* Customer Reviews */
 
 .content-container {
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat" , sans-serif;
     margin-top: 30px;
     text-align: center;
     text-transform: uppercase
@@ -159,7 +161,7 @@ body {
   border: 0;
   background-color: #9b3e36;
   margin: 0 auto;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .block-divider--small {
@@ -168,7 +170,7 @@ body {
   border: 0;
   background-color: #9b3e36;
   margin: 0 auto;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 /* Footer */
@@ -208,6 +210,23 @@ footer {
   border-bottom: 2px solid #9b3e36;
 }
 
+.about-container {
+    text-align: justify;
+    font-weight: 500;
+}
+
+/* .img {
+    background: url(./images/tan1.jpg);
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+.about-img {
+    border-radius: 50%;
+    padding: 25px;
+
+}
+
 /* Shop Page*/
 
 .gallery-img-container {
@@ -230,6 +249,7 @@ footer {
 .gallery-container {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .gallery-items img {
