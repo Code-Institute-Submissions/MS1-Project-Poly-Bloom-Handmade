@@ -1,81 +1,78 @@
 # Poly Bloom Handmade 
-<p>This is a static product website made in accordance with the guidelines for my 1st Milestone Project in the Code Institute Full Stack Web Developer Course.</p>
 
-<p>Poly Bloom Handmade is a real business dedicated to designing handmade, quality and unique polymer clay earrings based in Morelos Mexico.</p>
+<img src="./assets/images/polyms1.png">
+This is a static product website made in accordance with the guidelines for my 1st Milestone Project in the Code Institute Full Stack Web Developer Course.
+
+Poly Bloom Handmade is a real business dedicated to designing handmade, quality and unique polymer clay earrings based in Morelos Mexico.
 
 
 ## UX
 
-<p>I decided to make this site in order to promote Poly Bloom Handmade. My plan was to build an attractive, intuitive and infomative website that showcased the elegance and simplicity associated with these earrings.</p>
+I decided to make this site in order to promote Poly Bloom Handmade. My plan was to build an attractive, intuitive and infomative website that showcased the elegance and simplicity associated with these earrings.
 
-<p>I included a navbar and footer across all pages to maintain design continuity. The fonts, colors and sizing across all pages also follow continuity.</p>
+I included a navbar and footer across all pages to maintain design continuity. The fonts, colors and sizing across all pages also follow continuity.
 
-<p>The intended outcome for this project was:</p>
+The intended outcome for this project was:
 <ul>
 <li>To generate sales through a shop page where customers could browse collections resulting in increased revenue for the company.</li><br>
 <li>To improve brand awareness by providing a platform for new and existing customers to view Poly Bloom Handmade products.</li><br>
-<li>To keep customers updated and engaged by offering a monthly newsletter.</li>
+<li>To keep customers updated and engaged by offering a monthly newsletter and an up to date Instagram feed.</li>
 </ul>
 
-<p>The website is spread out over 4 pages:</p>
+The website is spread out over 4 pages:
 <ul>
-<li>Home - Users are introduced to the brand with a H1 outlining the name and some introductory text explaining the product. There is also a customer reviews section to improve the brand's reputation.</li><br>
+<li>Home - Users are introduced to the brand with a H1 outlining the name and some introductory text explaining the product. I included an Instagram Feed widget in order to keep users up to date with the social media element of the business.</li><br>
 <li>About - A brief biography section outlines the origin of the company and it's vision.</li><br>
-<li>Shop - A static storefront with a gallery of collections for the customer to browse.</li><br>
+<li>Shop - A storefront with a gallery of collections for the customer to browse with functional links to real products on the company's Etsy page. There is also a customer reviews section to improve the brand's reputation.</li><br>
 <li>Contact - A means for the customer to sign up to a monthly newsletter from Poly Bloom Handmade.</li>
 </ul>
 
-<p>Within the footer there are actual links to various social media platforms and a link to the online Etsy store where Poly Bloom Handmade products can be purchased.</p>
+Within the footer there are functioning links to various social media platforms and a link to the online Etsy store where Poly Bloom Handmade products can be purchased.
 
-<p>Using Bootstrap 4 allowed for this project to be responsive on all devices with an emphasis on a mobile first design approach.</p>
+Using Bootstrap 4 allowed for this project to be responsive on all devices with an emphasis on a mobile first design approach.
 
 ## External Libraries and Technology Used
 
-<p>I used HTML, CSS and Bootstrap4 to build and design the website layout. I also used fontawesome for the social media icons, Google Fonts for fonts.
+I used HTML, CSS and Bootstrap4 to build and design the website layout. I also used fontawesome for the social media icons, Google Fonts for fonts.
 
-https://getbootstrap.com/docs/4.4/getting-started/introduction/
+For the color used in the navbar, footer, buttons and horizontal rules I used Adobe Color Wheel.
 
-https://fonts.google.com/
-
-https://fontawesome.com/start
-
-
-Images have been taken from Google Images where the usage rights have been labeled for re-use with modification.
-
-https://www.google.com/imghp
-
-For the color used in the footer and horizontal rules I used Adobe Color Wheel.
-
-https://color.adobe.com/en/create/color-wheel
-
-All technologies used were chosen due to my experience with using them from the modules on the Code Institute Front End Developer course.</p>
+All technologies used were chosen due to my experience with using them from the modules on the Code Institute Front End Developer course.
 
 ## Features
 
 
 ### Included Features
 
-Navbar - I've included a navbar that is constant across all pages. From here there are functional links to other pages which gives the user the ability to navigate through the site without using the navigation arrows in the browser. An active underline identifies which page the user is currently on.
+Home Page - I included an Instagram Feed Widget to keep users up to date with the company. A widget was chosen as it was the most efficient way to implement what I wanted given my limited coding experience.
 
-Sections - Included in the Home, About and Shop pages are sections that show customer reviews in a Bootstrap Carousel, a simple biography in the About page and a collections gallery on the Shop page.
+Shop Page - Real working links to where Poly Bloom Handmade products could be purchased are nested in the images and product names displayed on the site.
 
-Footer - Across all pages sits a footer with active links to all social media and an online store for real purchases of Poly Bloom Handmade products.
+Contact Page - A sign up for a fictional monthly newsletter is included on the contact page.
 
 ### Future Features
 
 Given my inexperience, I will later add a fully functional online store to the Shop page with the possibility to buy products directly from the site.
 
+The monthly newsletter is something I intend to make a reality soon as well as a blog section for the website.
+
+I will improve the Instagram feed once I have the tools to do so.
+
 ## Testing 
 
 Navbar - All links are functional and perform as desired. Navbar is responsive across all devices.
 
-Home Page - <strong><em>Jumbotron when rotated in mobile view pushes into navbar. I will fix asap.</em></strong>
+Home Page - Instagram feed links directly to the Poly Bloom Handmade Instagram page. 
 
-Sections - Are responsive across all devices and functioning as desired. <strong><em>When viewing in Github Pages the images in the customer reviews section are not showing up. I aim to resolve this asap.</em></strong></strong>
+Sections - Are responsive across all devices and functioning as desired. 
 
-Contact Form - Is fully functional and returns all input information as designed. <strong><em>However within mobile and tablet view there are issues with responsiveness yet to be resolved.</em></strong>
+Contact Form - Is fully functional and returns all input information as designed. 
 
 Footer - All links are functional and open into a new page when clicked.
+
+I uploaded the link to my Github pages for this projectt for peer review on Slack.
+
+I also ran the code through the Mobile-Friendly Test at https://search.google.com/test/mobile-friendly.
 
 ## Deployment 
 
@@ -96,8 +93,18 @@ https://fontawesome.com/start
 
 https://color.adobe.com/en/create/color-wheel
 
-https://www.google.com/imghp
+https://stackoverflow.com/questions/24222798/how-to-remove-the-blue-box-shadow-border-in-button-if-clicked
 
-https://stackoverflow.com/
+https://search.google.com/test/mobile-friendly
+
+https://www.google.com/imghp - for images labelled for re-use with modifications.
+
+https://mdbootstrap.com/docs/jquery/navigation/footer/ - used to make the footer.
+
+https://getbootstrap.com/docs/4.4/components/carousel/ - code snippet used to the carousel on the Customer Reviews section.
+
+https://getbootstrap.com/docs/4.4/components/navbar/ - Code snippet for the Navbar taken from here.
+
+https://www.powr.io/ - Source of Instagram Feed Embedded Widget.
 
 

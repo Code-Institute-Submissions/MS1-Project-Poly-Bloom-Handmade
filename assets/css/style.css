@@ -248,7 +248,6 @@ footer {
 
 .gallery-img-container {
 	height: 92vh;
-	max-width: 100%;
 	background: url(../images/gallery.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
