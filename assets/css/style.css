@@ -75,7 +75,7 @@ body {
 /* Callout */
 
 .callout-container {
-  height: 90vh;
+  height: 92vh;
   background: url(../images/hero.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -122,10 +122,8 @@ body {
     font-size: 2.5rem;
 }
 
+
 /* Customer Reviews */
-
-
-
 
 .customer-h2 {
     margin-bottom: 20px;
@@ -208,7 +206,7 @@ footer {
 /* About Page */
 
 .image-container {
-  height: 100vh;
+  height: 92vh;
   background: url(../images/about.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -228,7 +226,7 @@ footer {
 
 .about-img {
     border-radius: 5%;
-    max-height: auto;
+    height: auto;
     width: 100%;
 }
 
@@ -242,7 +240,7 @@ footer {
 /* Shop Page*/
 
 .gallery-img-container {
-  height: 100vh;
+  height: 92vh;
   max-width: 100%;
   background: url(../images/gallery.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -299,7 +297,7 @@ footer {
 /* Contact Page */
 
 .contact-container {
-  height: 100vh;
+  height: 92vh;
   background: url(../images/pac.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -396,17 +394,22 @@ p {
 
 /* Media Query */
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about-img {
+            width: 50%;
+        }
+}
+
 @media screen and (max-width: 1023px){
     .review-image {
     width: 50%;
     }
-}
 
-@media screen and (max-width: 768px) {
-        .about-img {
+    .about-img {
             border-radius: 50%;
         }
-    }
+}
+
 
 @media screen and (max-height: 370px) {
 
@@ -420,22 +423,3 @@ p {
     font-size: 1.4rem;
     }
  }
-
-/* @media (orientation: landscape) {
-    .jumbo-h1 {
-    padding-top: 80px;
-    }
-} */
-/* 
-@media screen and (min-width: 768px) {
-
-.jumbo-h1 {
-    font-size: 3rem;
-}
-
-.jumbo-p {
-    font-size: 1.75rem; 
-}
-}
-
- */
