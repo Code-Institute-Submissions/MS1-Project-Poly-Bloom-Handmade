@@ -31,6 +31,40 @@ Within the footer there are functioning links to various social media platforms 
 
 Using Bootstrap 4 allowed for this project to be responsive on all devices with an emphasis on a mobile first design approach.
 
+### Wireframes
+
+<table>
+    <thead>
+        <tr>
+            <th align="center">Mobile</th>
+            <th align="center">Tablet</th>
+            <th align="center">Desktop</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th align=""center>Home</th>
+            <th align=""center>Home</th>
+            <th align=""center>Home</th>
+        </tr>
+        <tr>
+            <th align=""center>About</th>
+            <th align=""center>About</th>
+            <th align=""center>About</th>
+        </tr>
+        <tr>
+            <th align=""center>Shop</th>
+            <th align=""center>Shop</th>
+            <th align=""center>Shop</th>
+        </tr>
+        <tr>
+            <th align=""center>Contact</th>
+            <th align=""center>Contact</th>
+            <th align=""center>Contact</th>
+        </tr>
+    </tbody>
+</table>
+
 ## External Libraries and Technology Used
 
 I used HTML, CSS and Bootstrap4 to build and design the website layout. I also used fontawesome for the social media icons, Google Fonts for fonts.
