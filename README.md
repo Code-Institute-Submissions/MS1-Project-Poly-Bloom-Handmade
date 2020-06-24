@@ -124,12 +124,6 @@ Contact Page
     <li>A simple contact form with instructions for customers to sign up to a company newsletter is located here.</li>
 </ul>
 
-Home Page - I included an Instagram Feed Widget to keep users up to date with the company. A widget was chosen as it was the most efficient way to implement what I wanted given my limited coding experience.
-
-Shop Page - Real working links to where Poly Bloom Handmade products could be purchased are nested in the images and product names displayed on the site.
-
-Contact Page - A sign up for a fictional monthly newsletter is included on the contact page.
-
 ### Future Features to be Added
 <ul>
 <li>Given my inexperience, I will later add a fully functional online store to the Shop page with the possibility to buy products directly from the site instead of visiting a 3rd party site.</li>
@@ -143,7 +137,7 @@ Contact Page - A sign up for a fictional monthly newsletter is included on the c
 
 Navbar - All links are functional and perform as desired. Navbar is responsive across all devices.
 
-Home Page - Instagram feed links directly to the Poly Bloom Handmade Instagram page. 
+Home Page - Instagram feed links directly to the Poly Bloom Handmade Instagram page and is updated every 24 hours. 
 
 Sections - Are responsive across all devices and functioning as desired. 
 
@@ -151,9 +145,11 @@ Contact Form - Is fully functional and returns all input information as designed
 
 Footer - All links are functional and open into a new page when clicked.
 
-I uploaded the link to my Github pages for this projectt for peer review on Slack.
+All pages across the site are <strong>mobile friendly</strong> according to https://search.google.com/test/mobile-friendly
 
-I also ran the code through the Mobile-Friendly Test at https://search.google.com/test/mobile-friendly.
+
+
+I uploaded the link to my Github pages for this projectt for peer review on Slack.
 
 ## Deployment 
 

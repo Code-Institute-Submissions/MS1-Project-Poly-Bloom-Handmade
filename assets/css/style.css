@@ -1,3 +1,11 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/********************* Tag Selectors *********************/
 * {
 	margin: 0;
 	padding: 0;
@@ -10,9 +18,6 @@ body {
 	padding: 0;
 }
 
-/* #main {
-    height: 100%;
-} */
 
 .row {
 	margin-right: 0;
@@ -20,7 +25,7 @@ body {
 }
 
 
-/* Navbar */
+/********************* Navbar *********************/
 
 .navbar-container {
 	position: absolute;
@@ -77,18 +82,21 @@ body {
 }
 
 
-/* Callout */
+/********************** Callout **********************/
 
 .callout-container {
 	height: 92vh;
 	background: url(../images/hero.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	position: relative;
 	margin-top: 60px;
 	border-bottom: 2px solid #E3816B;
@@ -104,7 +112,7 @@ body {
 }
 
 
-/* Jumbotron */
+/********************** Jumbotron **********************/
 
 .jumbotron-container {
 	margin: 10px 0;
@@ -129,36 +137,8 @@ body {
 	font-size: 2.5rem;
 }
 
-/* Customer Reviews */
 
-.customer-h2 {
-	margin-bottom: 20px;
-}
-
-.carousel-container {
-	text-align: center;
-}
-
-.review-image {
-	border-radius: 100%;
-	width: 25%;
-}
-
-.carousel-item {
-	padding: 3% 12%;
-}
-
-.review-p {
-	margin-top: 30px;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-	filter: invert(1);
-}
-
-
-/* Content Containers */
+/********************** Content Containers **********************/
 
 .content-container {
 	font-family: "Montserrat", sans-serif;
@@ -171,7 +151,7 @@ body {
 	margin-bottom: 20px;
 }
 
-/* Block Dividers */
+/********************** Block Dividers **********************/
 
 .block-divider {
 	width: 15rem;
@@ -190,7 +170,7 @@ body {
 }
 
 
-/* Footer */
+/********************** Footer **********************/
 
 footer {
 	background-color: #E3816B;
@@ -208,22 +188,27 @@ footer {
 }
 
 .social i:hover {
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);
 }
 
 
-/* About Page */
+/********************** About Page **********************/
 
 .image-container {
 	height: 92vh;
 	background: url(../images/about.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	position: relative;
 	border-bottom: 2px solid #E3816B;
 }
@@ -247,24 +232,27 @@ footer {
 }
 
 
-/* Shop Page*/
+/********************** Shop Page **********************/
 
 .gallery-img-container {
 	height: 92vh;
 	background: url(../images/gallery.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	position: relative;
 	border-bottom: 2px solid #E3816B;
 }
 
 
-/* Gallery Items */
+/********************** Gallery Items **********************/
 
 .gallery-container {
 	text-align: center;
@@ -298,24 +286,57 @@ footer {
 	background-color: #fff;
 	color: #E3816B;
 	border: none;
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
 	padding-top: 10px;
 	text-shadow: none;
 }
 
+/********************** Customer Reviews **********************/
 
-/* Contact Page */
+.customer-h2 {
+	margin-bottom: 20px;
+}
+
+.carousel-container {
+	text-align: center;
+}
+
+.review-image {
+	border-radius: 100%;
+	width: 25%;
+}
+
+.carousel-item {
+	padding: 3% 12%;
+}
+
+.review-p {
+	margin-top: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	-webkit-filter: invert(1);
+	        filter: invert(1);
+}
+
+/********************** Contact Page **********************/
 
 .contact-container {
 	height: 92vh;
 	background: url(../images/pac.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	position: relative;
 	border-bottom: 2px solid #E3816B;
 }
@@ -375,7 +396,8 @@ p {
 	background-image: none;
 	border: 1px solid #E3816B;
 	outline: 0;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 }
 
 .form-control:hover {
@@ -403,7 +425,7 @@ p {
 }
 
 
-/* Media Query */
+/********************** Media Queries **********************/
 
 @media (min-width: 768px) and (max-width: 1023px) {
 	.about-img {
