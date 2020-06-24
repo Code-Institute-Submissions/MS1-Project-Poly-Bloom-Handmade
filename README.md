@@ -6,6 +6,8 @@ This is a static product website made in accordance with the guidelines for my 1
 
 Poly Bloom Handmade is a real business dedicated to designing handmade, quality and unique polymer clay earrings based in Morelos Mexico.
 
+A link to the deployed page can be found <a href="https://craig-ryan.github.io/MS1-Project-Poly-Bloom-Handmade/index.html">here</a>.
+
 
 ## UX
 
@@ -74,13 +76,47 @@ Using Bootstrap 4 allowed for this project to be responsive on all devices with 
     </tbody>
 </table>
 
-## External Libraries and Technology Used
+## External Libraries and Technologies Used
 
-I used HTML, CSS and Bootstrap4 to build and design the website layout. I also used fontawesome for the social media icons, Google Fonts for fonts.
+### Languages
 
-For the color used in the navbar, footer, buttons and horizontal rules I used Adobe Color Wheel.
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/HTML">HTML 5</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS 3</a></li>
+</ul>
 
-All technologies used were chosen due to my experience with using them from the modules on the Code Institute Front End Developer course.
+### Tools
+<ul>
+<li><a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap 4</a> - I used Bootstrap4 for the Navbar, Grids, Carousel and Footer included in this project.</li>
+
+<li><a href="https://fonts.google.com/">Google Fonts</a> - The 2 main fonts used in this project came from Google Fonts</li>
+
+<li><a href="https://fontawesome.com/start">Font Awesome</a> - Social Media Icons were taken from Font Awesome</li>
+
+<li><a href="https://color.adobe.com/en/create/color-wheel">Adobe Color Wheel</a>- The main color used #E3816B was taken from Adobe Color Wheel</li>
+
+<li><a href="https://stackoverflow.com/questions/24222798/how-to-remove-the-blue-box-shadow-border-in-button-if-clicked">Stack Overflow</a> - I used Stack Overflow for help with the box shadow on the contact form.</li>
+
+<li><a href="https://www.google.com/imghp">Google Images</a> - I took images from Google Images with usage rights allowed for modifications.</li> 
+
+<li><a href="https://mdbootstrap.com/docs/jquery/navigation/footer/">MD Bootstrap</a> - I made the footer using code from mdbootstrap.com
+</li>
+
+<li><a href="https://www.powr.io/">Powr.io</a> - Source of Instagram Feed Embedded Widget.</li> 
+
+<li><a href="https://favicon.io/">Favicon.io</a> - I used favicon to generate the icon displayed next to the website title.</li>
+
+<li><a href="https://autoprefixer.github.io/">Auto Prefixer</a> - I used this to ensure my CSS was void of errors.</li>
+
+<li><a href="https://github.com/">Github</a> - The project was hosted on Github. </li>
+
+<li><a href="https://www.gitpod.io">Gitpod</a> - I wrote and styled the entire project using Gitpod.</li>
+
+<li><a ref="http://ami.responsivedesign.is/">Am I Responsive</a> - I used this to ensure my site was responsive across all devices</li>
+
+<li><a ref="https://tinypng.com/">Tiny PNG</a> - I used this to compress images so they would load faster on the page.</li>
+
+</ul>
 
 ## Features
 
@@ -135,6 +171,15 @@ Contact Page
 
 ## Testing 
 
+### HTML
+
+Using <a href="https://validator.w3.org/nu/">W3 HTML Validator</a> the following issues were found:
+
+Home - resulted in a warning about a lack of headers in the Instagram Feed section. No action was taken as I viewed this more as a suggestion than a threat: <img src="./assets/testing/testindex.png" src="Html validator text">
+
+About, Shop & Contact pages returned no warnings:
+<img src="./assets/testing/testall.png" src="Html validator text">
+
 Navbar - All links are functional and perform as desired. Navbar is responsive across all devices.
 
 Home Page - Instagram feed links directly to the Poly Bloom Handmade Instagram page and is updated every 24 hours. 
@@ -145,11 +190,14 @@ Contact Form - Is fully functional and returns all input information as designed
 
 Footer - All links are functional and open into a new page when clicked.
 
-All pages across the site are <strong>mobile friendly</strong> according to https://search.google.com/test/mobile-friendly
+All pages across the site are <strong>mobile friendly</strong> according to <a href="https://search.google.com/test/mobile-friendly">Mobile Friendly Test</a>.
 
+### CSS
 
+Using <a href="http://jigsaw.w3.org/css-validator/validator">W3 CSS Validator</a> no errors found in my CSS style sheet:
+<img src="./assets/testing/css.png" src="Html validator text">
 
-I uploaded the link to my Github pages for this projectt for peer review on Slack.
+I uploaded the link to my Github pages for this project for peer review on Slack.
 
 ## Deployment 
 
@@ -159,29 +207,16 @@ Github Pages - https://craig-ryan.github.io/MS1-Project-Poly-Bloom-Handmade/inde
 
 Github Repository - https://github.com/Craig-Ryan/MS1-Project-Poly-Bloom-Handmade
 
-## Acknowledgements
+## Credit 
 
+### Media
+All images used except for the carousel images are the property Tania Salas of Poly Bloom Handmade.
 
-https://getbootstrap.com/docs/4.4/getting-started/introduction/
+### Acknowledgements
 
-https://fonts.google.com/
+Inspiration was drawn from the websites of <a href="https://www.shamushandmade.com/">Shamus Handmade</a> and <a href="https://www.claybycait.com/collections">Clay by Cait</a>.
 
-https://fontawesome.com/start
+A big thanks to <a href="https://github.com/akshatnitd">Akshat Garg</a>, all the staff at Code Institute and all of the fellow coders on Slack for the advice along this project.
 
-https://color.adobe.com/en/create/color-wheel
-
-https://stackoverflow.com/questions/24222798/how-to-remove-the-blue-box-shadow-border-in-button-if-clicked
-
-https://search.google.com/test/mobile-friendly
-
-https://www.google.com/imghp - for images labelled for re-use with modifications.
-
-https://mdbootstrap.com/docs/jquery/navigation/footer/ - used to make the footer.
-
-https://getbootstrap.com/docs/4.4/components/carousel/ - code snippet used to the carousel on the Customer Reviews section.
-
-https://getbootstrap.com/docs/4.4/components/navbar/ - Code snippet for the Navbar taken from here.
-
-https://www.powr.io/ - Source of Instagram Feed Embedded Widget.
 
 
