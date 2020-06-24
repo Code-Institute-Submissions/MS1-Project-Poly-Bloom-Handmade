@@ -10,6 +10,10 @@ body {
 	padding: 0;
 }
 
+/* #main {
+    height: 100%;
+} */
+
 .row {
 	margin-right: 0;
 	margin-left: 0;
@@ -28,10 +32,9 @@ body {
 }
 
 .navbar {
+	background-color: #E3816B;
 	border: 0;
 	width: 100%;
-	background-color: #E3816B;
-	position: relative;
 }
 
 .navbar .navbar-toggler {
@@ -161,7 +164,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	margin-top: 30px;
 	text-align: center;
-	text-transform: uppercase
+	/* text-transform: uppercase */
 }
 
 .content-h2 {
@@ -337,11 +340,12 @@ p {
 	margin-bottom: 25px;
 }
 
-.form-h1 {
+.form-h2 {
 	font-size: 2rem;
+    margin-top: 10px;
 }
 
-.contact-form>p {
+.contact-form > p {
 	font-size: 1.3rem;
 }
 
