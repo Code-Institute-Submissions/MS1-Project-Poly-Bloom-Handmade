@@ -1,30 +1,39 @@
 # Poly Bloom Handmade 
 
 <img src="./assets/images/polyms1.png">
-This is a static product website made in accordance with the guidelines for my 1st Milestone Project in the Code Institute Full Stack Web Developer Course.
+
+This is a static product website made in accordance with the guidelines for my 1st Milestone Project in the Code Institute Full Stack Web Developer Course.<br>
 
 Poly Bloom Handmade is a real business dedicated to designing handmade, quality and unique polymer clay earrings based in Morelos Mexico.
 
 
 ## UX
 
-I decided to make this site in order to promote Poly Bloom Handmade. My plan was to build an attractive, intuitive and infomative website that showcased the elegance and simplicity associated with these earrings.
+### Project Aim
 
-I included a navbar and footer across all pages to maintain design continuity. The fonts, colors and sizing across all pages also follow continuity.
+I decided to make this site in order to promote Poly Bloom Handmade. My plan was to build an attractive, intuitive and infomative website that represented the elegance and simplicity associated with the products on sale. 
 
-The intended outcome for this project was:
+My intentions were to improve overall customer interaction and brand awareness. Keeping customers up to date with the brand's social feed was a high priority as well as having links nested within the site to the online store where actual Poly Bloom Hanmade products can be purchased.
+
+
+### User Stories
+
 <ul>
-<li>To generate sales through a shop page where customers could browse collections resulting in increased revenue for the company.</li><br>
-<li>To improve brand awareness by providing a platform for new and existing customers to view Poly Bloom Handmade products.</li><br>
-<li>To keep customers updated and engaged by offering a monthly newsletter and an up to date Instagram feed.</li>
+    <li>As an owner I want to be able to promote my brand and my products online.</li>
+    <li>As an owner I want to instill a sense of luxury and simplicity represented by an intuitive and well laid out website that offers ease of browsing to my customers.</li>
+    <li>As an owner I want the ability to keep my audience engaged with new content.</li>
+    <li>As a user I want to be able to find what I'm looking for within the least number of clicks.</li>
+    <li>As a user I want to purchase Poly Bloom Handmade products easily through the site.</li>
+    <li>As a user I want to be able to find the company through all of it's social media and other online platforms.</li>
+    <li>As a new potential customer I want to immediately understand the sentiment behind the brand and get a feeling for the quality of the products on offer through positive verified customer reviews.</li>
 </ul>
 
 The website is spread out over 4 pages:
 <ul>
-<li>Home - Users are introduced to the brand with a H1 outlining the name and some introductory text explaining the product. I included an Instagram Feed widget in order to keep users up to date with the social media element of the business.</li><br>
-<li>About - A brief biography section outlines the origin of the company and it's vision.</li><br>
+<li>Home - Users are introduced to the brand with a heading outlining the name and some introductory text explaining the product. I included an Instagram Feed widget in order to keep users up to date with the social media element of the business.</li><br>
+<li>About - A brief biography section outlines the origin of the company, it's owner and her vision for the brand.</li><br>
 <li>Shop - A storefront with a gallery of collections for the customer to browse with functional links to real products on the company's Etsy page. There is also a customer reviews section to improve the brand's reputation.</li><br>
-<li>Contact - A means for the customer to sign up to a monthly newsletter from Poly Bloom Handmade.</li>
+<li>Contact - A means for the customer to sign up to a future monthly newsletter from Poly Bloom Handmade.</li>
 </ul>
 
 Within the footer there are functioning links to various social media platforms and a link to the online Etsy store where Poly Bloom Handmade products can be purchased.
@@ -43,24 +52,24 @@ Using Bootstrap 4 allowed for this project to be responsive on all devices with 
     </thead>
     <tbody>
         <tr>
-            <th align=""center><a href="./assets/wireframes/home-mobile.png">Home</a></th>
-            <th align=""center>Home</th>
-            <th align=""center>Home</th>
+            <th align="center"><a href="./assets/wireframes/home-mobile.png">Home</a></th>
+            <th align="center"><a href="./assets/wireframes/home-tablet.png">Home</a></th>
+            <th align="center"><a href="./assets/wireframes/home-desktop.png">Home</a></th>
         </tr>
         <tr>
-            <th align=""center>About</th>
-            <th align=""center>About</th>
-            <th align=""center>About</th>
+            <th align="center"><a href="./assets/wireframes/about-mobile.png">About</a></th>
+            <th align="center"><a href="./assets/wireframes/about-tablet.png">About</a></th>
+            <th align="center"><a href="./assets/wireframes/about-desktop.png">About</a></th>
         </tr>
         <tr>
-            <th align=""center>Shop</th>
-            <th align=""center>Shop</th>
-            <th align=""center>Shop</th>
+            <th align="center"><a href="./assets/wireframes/shop-mobile.png">Shop</a></th>
+            <th align="center"><a href="./assets/wireframes/shop-tablet.png">Shop</a></th>
+            <th align="center"><a href="./assets/wireframes/shop-desktop.png">Shop</a></th>
         </tr>
         <tr>
-            <th align=""center>Contact</th>
-            <th align=""center>Contact</th>
-            <th align=""center>Contact</th>
+            <th align="center"><a href="./assets/wireframes/contact-mobile.png">Contact</a></th>
+            <th align="center"><a href="./assets/wireframes/contact-tablet.png">Contact</a></th>
+            <th align="center"><a href="./assets/wireframes/contact-desktop.png">Contact</a></th>
         </tr>
     </tbody>
 </table>
