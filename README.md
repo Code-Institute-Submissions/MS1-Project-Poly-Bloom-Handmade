@@ -28,11 +28,11 @@ My intentions were to improve overall customer interaction and brand awareness. 
     <li>As a new potential customer I want to immediately understand the sentiment behind the brand and get a feeling for the quality of the products on offer through positive verified customer reviews.</li>
 </ul>
 
-The website is spread out over 4 pages:
+#### The website is spread out over 4 pages:
 <ul>
-<li>Home - Users are introduced to the brand with a heading outlining the name and some introductory text explaining the product. I included an Instagram Feed widget in order to keep users up to date with the social media element of the business.</li><br>
-<li>About - A brief biography section outlines the origin of the company, it's owner and her vision for the brand.</li><br>
-<li>Shop - A storefront with a gallery of collections for the customer to browse with functional links to real products on the company's Etsy page. There is also a customer reviews section to improve the brand's reputation.</li><br>
+<li>Home - Users are introduced to the brand with a heading outlining the name and some introductory text explaining the product. I included an Instagram Feed widget in order to keep users up to date with the social media element of the business.</li>
+<li>About - A brief biography section outlines the origin of the company, it's owner and her vision for the brand.</li>
+<li>Shop - A storefront with a gallery of collections for the customer to browse with functional links to real products on the company's Etsy page. There is also a customer reviews section to improve the brand's reputation.</li>
 <li>Contact - A means for the customer to sign up to a future monthly newsletter from Poly Bloom Handmade.</li>
 </ul>
 
@@ -87,19 +87,57 @@ All technologies used were chosen due to my experience with using them from the 
 
 ### Included Features
 
+Header 
+<ul>
+    <li>Navbar - which includes links to all parts of the website. It is also fixed so no matter where you are on the site you know where you are and are one click away from the content you want.</li>
+</ul>
+
+Sections
+<ul>
+    <li>Across each page lies a main image of Poly Bloom Handmade earrings before the main content of the page. I wanted it to be blatantly obvious what the website was promoting at the start of each page.</li>
+</ul>
+
+Footer 
+<ul>
+    <li>The footer contains all links to the various social media platforms as well as copyright text for the company.</li>
+</ul>
+
+Home Page 
+<ul>
+    <li>A fullpage sized image of a pair of Poly Bloom Handmade earrings sits in the background while in the foreground lies an introduction to the brand name and a short description of the product.</li>
+    <li>An instagram feed with up to date posts to keep users updated is also included here.</li>
+</ul>
+
+About Page 
+<ul>
+    <li>A large image of the company's owner and sole employee sits side by side with short biographical paragraphs on the about page.</li>
+</ul>
+
+Shop Page
+<ul>
+    <li>I implemented a shop by collection section with a grid of images with underlying names attached. Within the names there are nested links to the 3rd party store..</li>
+    <li>Following the shop collection are fictional customer reviews to strengthen the brand's reputaion for quality products.</li>
+</ul>
+
+Contact Page 
+<ul>
+    <li>A simple contact form with instructions for customers to sign up to a company newsletter is located here.</li>
+</ul>
+
 Home Page - I included an Instagram Feed Widget to keep users up to date with the company. A widget was chosen as it was the most efficient way to implement what I wanted given my limited coding experience.
 
 Shop Page - Real working links to where Poly Bloom Handmade products could be purchased are nested in the images and product names displayed on the site.
 
 Contact Page - A sign up for a fictional monthly newsletter is included on the contact page.
 
-### Future Features
+### Future Features to be Added
+<ul>
+<li>Given my inexperience, I will later add a fully functional online store to the Shop page with the possibility to buy products directly from the site instead of visiting a 3rd party site.</li>
 
-Given my inexperience, I will later add a fully functional online store to the Shop page with the possibility to buy products directly from the site.
+<li>The monthly newsletter is something I intend to make a reality soon and potentially a blog section relating to the earring making process.</li>
 
-The monthly newsletter is something I intend to make a reality soon as well as a blog section for the website.
-
-I will improve the Instagram feed once I have the tools to do so.
+<li>I will improve the Instagram feed once I have more experience with jquery.</li>
+</ul>
 
 ## Testing 
 
