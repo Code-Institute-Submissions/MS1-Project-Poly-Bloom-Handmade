@@ -43,7 +43,7 @@ Using Bootstrap 4 allowed for this project to be responsive on all devices with 
     </thead>
     <tbody>
         <tr>
-            <th align=""center>Home</th>
+            <th align=""center><a href="./assets/wireframes/home-mobile.png">Home</a></th>
             <th align=""center>Home</th>
             <th align=""center>Home</th>
         </tr>
