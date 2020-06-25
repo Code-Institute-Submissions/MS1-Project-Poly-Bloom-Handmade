@@ -95,7 +95,7 @@ Imagery is very important in portraying the purpose of this site. Each page has 
 <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS 3</a></li>
 </ul>
 
-### Tools
+### Frameworks, Libraries & Programs Used
 <ul>
 <li><a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap 4</a> - I used Bootstrap4 for the Navbar, Grids, Carousel and Footer included in this project.</li>
 
@@ -232,20 +232,23 @@ No bugs are apparent to report except for an error in display on the home page o
 ## Deployment 
 
 This project was deployed on Github Pages using the following steps:
-<ul>
+<ol>
 <li>Click on settings above the repository.</li>
 <li>Scroll down to Github Pages.</li>
 <li>Select "Master Branch" from dropdown in the Source section.</li>
 <li>The page will automatically refresh and the link to the Github Pages deployed site will be available below in Github Pages.</li>
-</ul>
+</ol>
 
 In order to run the project locally follow these steps:
-<ul>
-<li>Click on the gitpod.</li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
+<ol>
+<li>Log in to GitHub and locate the <a href="https://github.com/Craig-Ryan/MS1-Project-Poly-Bloom-Handmade">GitHub Repository</a></li>
+<li>Under the repository name, click "Clone or download".</li>
+<li>To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.</li>
+<li>Open Git Bash</li>
+<li>Change the current working directory to the location where you want the cloned directory to be made.</li>
+<li>Type git clone, and then paste the URL you copied in Step 3.</li>
+<li>Press Enter. Your local clone will be created.</li>
+</ol>
 
 This website is available to view publicly on Github Pages.
 
@@ -255,8 +258,19 @@ This website is available to view publicly on Github Pages.
 
 ## Credits 
 
+### Code
+
+The full-screen hero image code came from the Code Institute Whiskey Drop project in the User Centric Frontend portion of the course.
+
+<a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap4</a>: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
 ### Media
+
 All images used except for the carousel images are the property Tania Salas of Poly Bloom Handmade.
+
+### content
+
+All content is my own personal design unless otherwise stated.
 
 ### Acknowledgements
 
