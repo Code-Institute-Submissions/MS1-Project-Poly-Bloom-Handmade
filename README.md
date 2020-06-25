@@ -268,7 +268,7 @@ The full-screen hero image code came from the Code Institute Whiskey Drop projec
 
 All images used except for the carousel images are the property Tania Salas of Poly Bloom Handmade.
 
-### content
+### Content
 
 All content is my own personal design unless otherwise stated.
 
