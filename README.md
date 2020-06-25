@@ -15,7 +15,7 @@ A link to the deployed page can be found <a href="https://craig-ryan.github.io/M
 
 I decided to make this site in order to promote Poly Bloom Handmade. My plan was to build an attractive, intuitive and infomative website that represented the elegance and simplicity associated with the products on sale. 
 
-My intentions were to improve overall customer interaction and brand awareness. Keeping customers up to date with the brand's social feed was a high priority as well as having links nested within the site to the online store where actual Poly Bloom Hanmade products can be purchased.
+My intentions were to improve overall customer interaction and brand awareness. Keeping customers up to date with the brand's social feed was a high priority as well as having links nested within the site to the online store where actual Poly Bloom Handmade products can be purchased.
 
 
 ### User Stories
@@ -106,9 +106,9 @@ Using Bootstrap 4 allowed for this project to be responsive on all devices with 
 
 <li><a href="https://favicon.io/">Favicon.io</a> - I used favicon to generate the icon displayed next to the website title.</li>
 
-<li><a href="https://autoprefixer.github.io/">Auto Prefixer</a> - I used this to ensure my CSS was void of errors.</li>
+<li><a href="https://autoprefixer.github.io/">Auto Prefixer</a> - I used this to ensure my CSS had no errors.</li>
 
-<li><a href="https://github.com/">Github</a> - The project was hosted on Github. </li>
+<li><a href="https://github.com/">Github</a> - The project was hosted and version control maintained on Github. </li>
 
 <li><a href="https://www.gitpod.io">Gitpod</a> - I wrote and styled the entire project using Gitpod.</li>
 
@@ -151,7 +151,7 @@ About Page
 
 Shop Page
 <ul>
-    <li>I implemented a shop by collection section with a grid of images with underlying names attached. Within the names there are nested links to the 3rd party store..</li>
+    <li>I implemented a shop by collection section with a grid of images with underlying names attached. Within the names there are nested links to the 3rd party store.</li>
     <li>Following the shop collection are fictional customer reviews to strengthen the brand's reputaion for quality products.</li>
 </ul>
 
@@ -197,17 +197,35 @@ All pages across the site are <strong>mobile friendly</strong> according to <a h
 Using <a href="http://jigsaw.w3.org/css-validator/validator">W3 CSS Validator</a> no errors found in my CSS style sheet:
 <img src="./assets/testing/css.png" src="Html validator text">
 
-I uploaded the link to my Github pages for this project for peer review on Slack.
+### Responsiveness
+
+Responsiveness was tested on:
+<ul>
+<li>Google Developer Tools</li>
+<li>Google Chrome Browser<ul><li>On Mobile</li><li>On Tablet</li><li>On Laptop/Desktop</li></li></ul>
+<li>My Personal Samsung A50 Mobile Phone</li>
+<li>Friends' iPhones 8 & X</li>
+<li>Brave Internet Browser</li>
+<li>All other major browsers</li>
+</ul>
+
+### Bugs
+
+No major bugs are apparent to report.
+
+<em>I uploaded the link to my Github pages for this project for peer review on Slack.</em>
+
+
 
 ## Deployment 
 
 This website is available to view publicly on Github Pages.
 
-Github Pages - https://craig-ryan.github.io/MS1-Project-Poly-Bloom-Handmade/index.html
+<a href="https://craig-ryan.github.io/MS1-Project-Poly-Bloom-Handmade/index.html">Github Pages</a> - Click <a href="https://craig-ryan.github.io/MS1-Project-Poly-Bloom-Handmade/index.html">here</a> to view the deployed version of my site on Github Pages.
 
-Github Repository - https://github.com/Craig-Ryan/MS1-Project-Poly-Bloom-Handmade
+<a href="https://github.com/Craig-Ryan/MS1-Project-Poly-Bloom-Handmade">Github Repository</a> - Click <a href="https://github.com/Craig-Ryan/MS1-Project-Poly-Bloom-Handmade">here</a> to view the Github Repository for this project.
 
-## Credit 
+## Credits 
 
 ### Media
 All images used except for the carousel images are the property Tania Salas of Poly Bloom Handmade.
