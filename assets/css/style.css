@@ -102,6 +102,7 @@ body {
 	border-bottom: 2px solid #E3816B;
 }
 
+/* Opaque Overlay code taken from Whiskey Monthly Project in User Centric Development Course */
 .opaque-overlay {
 	position: absolute;
 	top: 0;
@@ -144,7 +145,6 @@ body {
 	font-family: "Montserrat", sans-serif;
 	margin-top: 30px;
 	text-align: center;
-	/* text-transform: uppercase */
 }
 
 .content-h2 {
@@ -169,7 +169,6 @@ body {
 	margin: 0 auto 20px auto;
 }
 
-
 /********************** Footer **********************/
 
 footer {
@@ -192,7 +191,6 @@ footer {
 	    -ms-transform: scale(1.2);
 	        transform: scale(1.2);
 }
-
 
 /********************** About Page **********************/
 
@@ -231,7 +229,6 @@ footer {
 	text-align: left;
 }
 
-
 /********************** Shop Page **********************/
 
 .gallery-img-container {
@@ -250,7 +247,6 @@ footer {
 	position: relative;
 	border-bottom: 2px solid #E3816B;
 }
-
 
 /********************** Gallery Items **********************/
 
@@ -423,7 +419,6 @@ p {
 	color: #E3816B;
 	background-color: #fff;
 }
-
 
 /********************** Media Queries **********************/
 

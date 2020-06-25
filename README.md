@@ -42,6 +42,16 @@ Within the footer there are functioning links to various social media platforms 
 
 Using Bootstrap 4 allowed for this project to be responsive on all devices with an emphasis on a mobile first design approach.
 
+### Design
+#### Color
+The 2 main colors used are orange and white.
+
+#### Typography 
+The navbar and main image on the homepage uses Tenali Ramakrishna while all paragraph and information texts use Montserrat. Both use Sans-Serif in case of any browser display issues.
+
+#### Imagery
+Imagery is very important in portraying the purpose of this site. Each page has a large hero image with real Poly Bloom Handmade products to showcase the designs. There is no doubt left to what the website is advertising.
+
 ### Wireframes
 
 <table>
@@ -112,9 +122,11 @@ Using Bootstrap 4 allowed for this project to be responsive on all devices with 
 
 <li><a href="https://www.gitpod.io">Gitpod</a> - I wrote and styled the entire project using Gitpod.</li>
 
-<li><a ref="http://ami.responsivedesign.is/">Am I Responsive</a> - I used this to ensure my site was responsive across all devices</li>
+<li><a ref="http://ami.responsivedesign.is/">Am I Responsive</a> - I used this to ensure my site was responsive across all devices.</li>
 
 <li><a ref="https://tinypng.com/">Tiny PNG</a> - I used this to compress images so they would load faster on the page.</li>
+
+<li><a href="https://balsamiq.com/">Balsamic</a> - Used to make the wireframes for this project</li>
 
 </ul>
 
@@ -206,18 +218,34 @@ Responsiveness was tested on:
 <li>My Personal Samsung A50 Mobile Phone</li>
 <li>Friends' iPhones 8 & X</li>
 <li>Brave Internet Browser</li>
-<li>All other major browsers</li>
+<li>Internet Explorer</li>
 </ul>
 
 ### Bugs
 
-No major bugs are apparent to report.
+No bugs are apparent to report except for an error in display on the home page on Internet Explorer. 
 
 <em>I uploaded the link to my Github pages for this project for peer review on Slack.</em>
 
 
 
 ## Deployment 
+
+This project was deployed on Github Pages using the following steps:
+<ul>
+<li>Click on settings above the repository.</li>
+<li>Scroll down to Github Pages.</li>
+<li>Select "Master Branch" from dropdown in the Source section.</li>
+<li>The page will automatically refresh and the link to the Github Pages deployed site will be available below in Github Pages.</li>
+</ul>
+
+In order to run the project locally follow these steps:
+<ul>
+<li>Click on the gitpod.</li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 
 This website is available to view publicly on Github Pages.
 
@@ -234,7 +262,7 @@ All images used except for the carousel images are the property Tania Salas of P
 
 Inspiration was drawn from the websites of <a href="https://www.shamushandmade.com/">Shamus Handmade</a> and <a href="https://www.claybycait.com/collections">Clay by Cait</a>.
 
-A big thanks to <a href="https://github.com/akshatnitd">Akshat Garg</a>, all the staff at Code Institute and all of the fellow coders on Slack for the advice along this project.
+A big thanks to <a href="https://github.com/akshatnitd">Akshat Garg</a>, all the staff at Code Institute and all of the fellow coders on Slack for the advice and support along this project.
 
 
 
