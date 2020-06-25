@@ -122,9 +122,9 @@ Imagery is very important in portraying the purpose of this site. Each page has 
 
 <li><a href="https://www.gitpod.io">Gitpod</a> - I wrote and styled the entire project using Gitpod.</li>
 
-<li><a ref="http://ami.responsivedesign.is/">Am I Responsive</a> - I used this to ensure my site was responsive across all devices.</li>
+<li><a href="http://ami.responsivedesign.is/">Am I Responsive</a> - I used this to ensure my site was responsive across all devices.</li>
 
-<li><a ref="https://tinypng.com/">Tiny PNG</a> - I used this to compress images so they would load faster on the page.</li>
+<li><a href="https://tinypng.com/">Tiny PNG</a> - I used this to compress images so they would load faster on the page.</li>
 
 <li><a href="https://balsamiq.com/">Balsamic</a> - Used to make the wireframes for this project</li>
 
